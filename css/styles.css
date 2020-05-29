@@ -47,4 +47,12 @@ a {
   text-align: justify;
 }
 
+.schlDate {
+  background-color: rgb(58, 55, 55);
+  color: whitesmoke;
+}
 
+.prim {
+  font-weight: bold;
+  text-decoration: underline;
+}
