@@ -15,8 +15,7 @@
     </div>
 
     <div class="sidebar well">
-      <h2 class="sidebarHead">W1 Projects</h2>
-
+      <h2 class="sidebarHead"><strong>W1 Projects</strong></h2>
       <!--Wanted to try bootstrap buttons because I liked the clean look when used for links in a sidebar or list
           inline <a> href inside <button> to avoid the normal javascript requirements (which I don't know) to make buttons functional
       -->
@@ -54,8 +53,8 @@
       </div>
     </div>
     
-    <div class="sidebar2 well">
-      <h2 class="secheader">Interests</h2>
+    <div class="sidebar2 well">  <!--Sidebar2 adds clear to sidebar 1 logic to stack on the left float-->
+      <h2 class="secheader"><strong>Interests</strong></h2>  <!--secheader centers text within the element-->
       <ol>
         <li>Zobes</li>
         <li>Video Games</li>
@@ -65,23 +64,40 @@
       </ol>
     </div>
 
-
-    <h2 class="secheader">About Me</h2>
-    <p class="intro">
-      <!--born/raised, family, sports, overview of interests-->
-    </p>
+    <div class="row display-flex"> 
+      <div class="col-lg-12 well"> <!--single column for within grid to allow the elements to better interact with the left floats, prevents backgrounds from overlapping-->
+        <h2 class="secheader">About Me</h2>
+        <p class="intro">
+          Hello! My name is <strong><em>Tyson Lackey</em></strong>. I was born and raised in Portland, Oregon and have lived here most of my life. 
+          There were a couple of years spent at Oregon State University in Corvallis, but other that, Metro Portland has
+          always been home. <em>Lacrosse</em> was a huge passion of mine growing up and I played through middle school and high school.
+          I decided to stop playing competatively after graduating so I could focus on the full college experience instead of
+          being consumed by sports 24/7. I was pursuing a business degree from Oregon State and Portland State depending 
+          (bounching between the two form 2008-2011) before deciding that a 4-year university wasn't for me. After leaving school
+          and a few years of working at a netflix call center, a career in Business Intelligence focused in the Logistics field 
+          kind of fell into my lap. Working as a junior analyst taught me most of my background in SQL, Power Query, and Power BI.
+          A few years into that field, I realized that I wanted to cement a better foundation in my development skills and possibly
+          pursue a new career in coding. If nothing else, learning code would supplement a career in BI better than any on the job
+          tricks I would pick up along the way. Fate seemed to notice my shift in interests and my job was outsourced in August of 2019
+          creating a perfect opportunity to dive head first into this new field and skillset. If I'm not working, I'm almost always playing
+          video games. While I have a passion for travel and the outdoors, recent events have definitely forced more of my recreation
+          onto the computer or television. Luckily, <em>golf</em> courses have been quick implement strict social distancing rules and remain open.
+          As the weather continues to improve, I plan on spending as much time as possible on the links trying to shake off almost a years worth of rust.
+        </p>
+      </div>
+    </div>
 
     
-    <div class="row display-flex">
-      <div class="col-lg-12 well">
+    <div class="row display-flex"> <!--display-flex formats uniform column heights and allows the element to better interact with left floats-->
+      <div class="col-lg-12 well"> <!--single column for within grid to allow the elements to better interact with the left floats, prevents backgrounds from overlapping-->
         <h2 class="secheader">Background</h2>
         <div class="row display-flex">
-          <div class="col-xl-4 col-lg-4 col-md-4 col-s-6 col-xs-12">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-s-6 col-xs-12 tBorder"> <!--specific column sizing for responsiveness-->
             <h3 class="secheader">Education</h3>
             <ul>
-              <li class="prim">Lincoln Highschool</li>
+              <li class="prim">Lincoln Highschool</li>  <!--prim underlines and bolds-->
                 <ul>
-                  <li>Graduated <span class="schlDate">2008</span></li>
+                  <li>Graduated <span class="schlDate">2008</span></li> <!--schlDate highlights and recolors-->
                 </ul>
               <li class="prim">Oregon State University</li>
                 <ul>
@@ -102,26 +118,20 @@
             </ul>
           </div>
 
-          <div class="col-xl-4 col-lg-4 col-md-4 col-s-6 col-xs-12">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-s-6 col-xs-12 tBorder">
               <h3 class="secheader">Job Experience</h3>
                 <ul>
                   <li class="prim">Netflix</li>
-                  <p>testing the default formatting</p>
+                  <p>Worked at the call center in hillsboro as a customer service representative</p>
                   <li class="prim">DSV</li>
-                  <p>testing the default formatting</p>
+                  <p>Business Analyst</p>
                   <li class="prim">XPO Logistics</li>
-                  <p>testing the default formatting</p>
+                  <p>Business Intelligence Analyst</p>
                 </ul>
-          </div>
-
-          <div class="col-xl-4 col-lg-4 col-md-4 col-s-6 col-xs-12">
-              <h3 class="secheader">How I Found Epicodus</h3>
           </div>
         </div>
       </div>
     </div>
-
-  
 
   </body>
 </html>
