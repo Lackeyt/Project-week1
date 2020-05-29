@@ -1,3 +1,20 @@
+body {
+  background: url(C:/Users/lacke/Desktop/Epicodus/Project-week1/img/backgroundGolf.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+.well {
+  background-color: rgb(243,243,243,.5);
+  border: transparent;
+  color: black;
+}
+
+.jumbotron {
+  background-color: rgb(243,243,243,.3)
+}
+
 h1 {
   text-align: center;
 }
@@ -7,25 +24,21 @@ h1 {
   height: auto;
 }
 
-.boxboard {
-  border: 2px solid rgb(167, 167, 167);
-}
 
 .sidebar {
-  min-width: 210px;
+  width: 250px;
   float: left;
   text-align: center;
   margin-right: 15px;
-  border: 2px solid rgb(167, 167, 167);
   padding: 10px;
 }
 
 .sidebar2 {
-  min-width: 210px;
+  width: 250px;
   float: left;
   clear: left;
+  text-align: left;
   margin-right: 15px;
-  border: 2px solid rgb(167, 167, 167);
   padding: 10px;
 }
 
@@ -42,7 +55,7 @@ ol li {
 }
 
 .btn-block {
-  background-color: rgb(58, 55, 55);
+  background-color: rgb(93, 93, 93);
 }
 
 a {
