@@ -8,7 +8,7 @@
   <body>
     <div class="jumbotron">
       <h1>
-        <img src="https://i.imgur.com/FzXIpVs.jpg" alt="A photo of Tyson and Nacho the cat" class="headimg">
+        <img src="https://i.imgur.com/FzXIpVs.jpg" alt="A photo of Tyson and Nacho the cat" class="headimg">  <!-- class=headimg to resize image -->
         Tyson Lackey 
         <img src="https://i.imgur.com/FzXIpVs.jpg" alt="A photo of Tyson and Nacho the cat" class="headimg">
       </h1>
@@ -18,17 +18,11 @@
       <h2 class="sidebarHead">W1 Projects</h2>
 
       <!--Wanted to try bootstrap buttons because I liked the clean look when used for links in a sidebar or list
-          btn-group-vertical in the parent div just align them all vertically instead of across the screen
-          Button tag to allow for the whole button to be clicked instead of just the href text
-          class btn-block to make the buttons a consistent width instead of scaling with the length of text
-          class btn & class btn-secondary for bootstrap formatting
           inline <a> href inside <button> to avoid the normal javascript requirements (which I don't know) to make buttons functional
-          target="_blank" to make the hyperlinks open in a new tab for easier navigation back to the Index
-          This would have been a good place to use ul/li but i chose to use those for education instead
       -->
-      <div class="btn-group-vertical">
-          <button type="button" class="btn-block">
-            <a href="https://github.com/Lackeyt/hello-world" class="btn btn-secondary" target="_blank">Hello World</a>
+      <div class="btn-group-vertical">                                                                                  <!--Parent class in bootstrap to align buttons vertically (default horizonal)-->
+          <button type="button" class="btn-block">                                                                      <!--btn-block for consistant button width-->
+            <a href="https://github.com/Lackeyt/hello-world" class="btn btn-secondary" target="_blank">Hello World</a>  <!--btn for bootstrap formatting, target=_blank to open links in new tab-->
           </button>
           <button type="button" class="btn-block">
             <a href="https://github.com/Lackeyt/media-query-practice" class="btn btn-secondary" target="_blank">Media Query Practice</a>
@@ -61,7 +55,7 @@
     </div>
 
     <h2 class="secheader">About Me</h2>
-      <p>
+      <p class="intro">
         <!--born/raised, family, sports, overview of interests-->
       </p>
     
