@@ -9,8 +9,15 @@ h1 {
 
 .sidebar {
   float: left;
-  background-color: rgb(141, 161, 161);
   text-align: center;
+  margin-right: 15px;
+  border: 5px,  black;
+  padding: 10px;
+  background-color: rgb(141, 161, 161);
+}
+
+ol li {
+  list-style-position: inside;  /*moves numbering inside of the boundaries of the list, helping it interact more consistently with margins on other elements*/
 }
 
 .secheader {
