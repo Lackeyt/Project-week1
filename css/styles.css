@@ -13,5 +13,15 @@ h1 {
 .headimg {
   width: 7%;
   height: auto;
-  align-items: right;
+}
+
+/*  testing out a trick to make columns equal height regardless of content. not in loving the "trickery"
+    to trick the display. It also breaks the lower well border. Will explore to see if other options exist*/
+.row.match-my-cols {
+  overflow: hidden;
+}
+
+.row.match-my-cols [class*="col-"] {
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
 }
