@@ -2,23 +2,33 @@ h1 {
   text-align: center;
 }
 
-.sidebar {
-  float: left;
-  background-color: rgb(74, 88, 88);
-  text-align: center;
+.headimg {
+  width: 7%;
+  height: auto;
 }
 
-.sidebarHead {
-  color: white;
+.sidebar {
+  float: left;
+  background-color: rgb(141, 161, 161);
+  text-align: center;
 }
 
 .secheader {
   text-align: center;
 }
 
-.headimg {
-  width: 7%;
-  height: auto;
+.btn {
+  font-weight: bold;
+}
+
+.btn-block {
+  background-color: rgb(58, 55, 55);
+}
+
+a {
+  color: whitesmoke;
+  font-weight: bolder;
+  text-decoration: underline;
 }
 
 /*  discovered flex as built in functionality for column height matching. fixed the issue of the "well
@@ -32,3 +42,9 @@ h1 {
   display: flex;
   flex-direction: column;
 }
+
+.intro {
+  text-align: justify;
+}
+
+
