@@ -15,7 +15,7 @@ _This webpge is designed for the Week 1 project at Epicodus. It's purpose is to 
 
 ## Setup/Installation Requirements
 
-* Navigate to https://lackeyt.github.io/Project-week1 to view
+* Navigate to https://lackeyt.github.io/Project-week1/ to view
 
 ## Known Bugs
 
