@@ -4,6 +4,12 @@ h1 {
 
 .sidebar {
   float: left;
+  background-color: rgb(74, 88, 88);
+  text-align: center;
+}
+
+.sidebarHead {
+  color: white;
 }
 
 .secheader {
@@ -15,13 +21,14 @@ h1 {
   height: auto;
 }
 
-/*  testing out a trick to make columns equal height regardless of content. not in loving the "trickery"
-    to trick the display. It also breaks the lower well border. Will explore to see if other options exist*/
-.row.match-my-cols {
-  overflow: hidden;
+/*  discovered flex as built in functionality for column height matching. fixed the issue of the "well
+    bootstrap formatting being cutoff at the bottom of the element*/
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.row.match-my-cols [class*="col-"] {
-  margin-bottom: -99999px;
-  padding-bottom: 99999px;
+.row.display-flex > [class*="col-"] {
+  display: flex;
+  flex-direction: column;
 }
