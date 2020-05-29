@@ -12,8 +12,18 @@ h1 {
 }
 
 .sidebar {
+  min-width: 210px;
   float: left;
   text-align: center;
+  margin-right: 15px;
+  border: 2px solid rgb(167, 167, 167);
+  padding: 10px;
+}
+
+.sidebar2 {
+  min-width: 210px;
+  float: left;
+  clear: left;
   margin-right: 15px;
   border: 2px solid rgb(167, 167, 167);
   padding: 10px;
@@ -58,7 +68,7 @@ a {
 }
 
 .schlDate {
-  background-color: rgb(58, 55, 55);
+  background-color: rgb(117, 117, 117);
   color: whitesmoke;
 }
 
