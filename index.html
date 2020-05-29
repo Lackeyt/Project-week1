@@ -5,33 +5,55 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <title>Project Week 1</title>
   </head>
-  <body>
-    <h1>Tyson Lackey</h1>
-    <p><img src="image" alt="A photo of Tyson"></p>
+  <body class="container">
+    <div class="jumbotron">
+      <h1>Tyson Lackey</h1>
+      <p><img src="image" alt="A photo of Tyson"></p>
+    </div>
 
-    <h2>Week 1 Projects</h2>
-    <ul>
-      <li>Hello-World</li>
-      <li>Media-Query-Practice</li>
-      <li>Branching-Website</li>
-      <li>Markdown</li>
-      <li>Week-in-review</li>
-      <li>HTML-formatting</li>
-      <li>Box-model</li>
-      <li>PetBlog</li>
-      <li>MyFirstWebpage</li>
-      <li>div-span-float-class-merge</li>
-    </ul>
+    <div class="sidebar">
+      <h2>Week 1 Projects</h2>
+      <div class="btn-group-vertical">
+        <ul>
+          <li>Hello-World</li>
+          <li>Media-Query-Practice</li>
+          <li>Branching-Website</li>
+          <li>Markdown</li>
+          <li>Week-in-review</li>
+          <li>HTML-formatting</li>
+          <li>Box-model</li>
+          <li>PetBlog</li>
+          <li>MyFirstWebpage</li>
+          <li>div-span-float-class-merge</li>
+        </ul>
+      </div>
+    </div>
 
-    <h2>About Me</h2>
+    <h2 class="secheader">About Me</h2>
       <p>
         <!--born/raised, family, sports, overview of interests-->
       </p>
     
-    <h2>Background</h2>
-      <h3>Education</h3>
-      <h3>Job Experience</h3>
-      <h3>How I Found Epicodus</h3>
+    <div class="container">
+      <h2 class="secheader">Background</h2>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="well">
+            <h3>Education</h3>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="well">
+            <h3>Job Experience</h3>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="well">
+            <h3>How I Found Epicodus</h3>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <h2>My Top 5 Current Interests</h2>
       <ol>
