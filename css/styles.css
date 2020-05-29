@@ -9,3 +9,9 @@ h1 {
 .secheader {
   text-align: center;
 }
+
+.headimg {
+  width: 7%;
+  height: auto;
+  align-items: right;
+}
