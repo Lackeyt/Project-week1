@@ -64,7 +64,7 @@ a {
   text-decoration: underline;
 }
 
-/*  discovered flex as built in functionality for column height matching. fixed the issue of the "well
+/*  discovered flex as built in functionality for column height matching. fixed the issue of the
     bootstrap formatting being cutoff at the bottom of the element*/
 .row.display-flex {
   display: flex;
