@@ -13,19 +13,47 @@
 
     <div class="sidebar">
       <h2>Week 1 Projects</h2>
+
+      <!--Wanted to try bootstrap buttons because I liked the clean look when used for links in a sidebar or list
+          btn-group-vertical in the parent div just align them all vertically instead of across the screen
+          Button tag to allow for the whole button to be clicked instead of just the href text
+          class btn-block to make the buttons a consistent width instead of scaling with the length of text
+          class btn & class btn-secondary for bootstrap formatting
+          inline <a> href inside <button> to avoid the normal javascript requirements (which I don't know) to make buttons functional
+          target="_blank" to make the hyperlinks open in a new tab for easier navigation back to the Index
+          This would have been a good place to use ul/li but i chose to use those for education instead
+      -->
       <div class="btn-group-vertical">
-        <ul>
-          <li>Hello-World</li>
-          <li>Media-Query-Practice</li>
-          <li>Branching-Website</li>
-          <li>Markdown</li>
-          <li>Week-in-review</li>
-          <li>HTML-formatting</li>
-          <li>Box-model</li>
-          <li>PetBlog</li>
-          <li>MyFirstWebpage</li>
-          <li>div-span-float-class-merge</li>
-        </ul>
+          <button type="button" class="btn-block">
+            <a href="https://github.com/Lackeyt/hello-world" class="btn btn-secondary" target="_blank">Hello World</a>
+          </button>
+          <button type="button" class="btn-block">
+            <a href="https://github.com/Lackeyt/media-query-practice" class="btn btn-secondary" target="_blank">Media Query Practice</a>
+          </button>
+          <button type="button" class="btn-block">
+            <a href="https://github.com/Lackeyt/branchingwebsite" class="btn btn-secondary" target="_blank">Branching Website</a>
+          </button>
+          <button type="button" class="btn-block">
+            <a href="https://github.com/Lackeyt/markdown" class="btn btn-secondary" target="_blank">Markdown</a>
+          </button>
+          <button type="button" class="btn-block">
+            <a href="https://github.com/Lackeyt/week-in-review" class="btn btn-secondary" target="_blank">Week in Review</a>
+          </button>
+          <button type="button" class="btn-block">
+            <a href="https://github.com/Lackeyt/HTML-formatting" class="btn btn-secondary" target="_blank">HTML Formatting</a>
+          </button>
+          <button type="button" class="btn-block">
+            <a href="https://github.com/Lackeyt/box-model" class="btn btn-secondary" target="_blank">Box Model/Bootstrap</a>
+          </button>
+          <button type="button" class="btn-block">
+            <a href="https://github.com/Lackeyt/petblog" class="btn btn-secondary" target="_blank">Pet Blog</a>
+          </button>
+          <button type="button" class="btn-block">
+            <a href="https://github.com/Lackeyt/myfirstwebpage" class="btn btn-secondary" target="_blank">My First Webpage</a>
+          </button>
+          <button type="button" class="btn-block">
+            <a href="https://github.com/Lackeyt/div-span-float-class-merge" class="btn btn-secondary" target="_blank">Day 2 Practice</a>
+          </button>
       </div>
     </div>
 
