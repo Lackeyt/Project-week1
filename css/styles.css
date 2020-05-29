@@ -1,5 +1,5 @@
 body {
-  background: url(C:/Users/lacke/Desktop/Epicodus/Project-week1/img/backgroundGolf.jpg);
+  background: url(https://i.imgur.com/ahGgNxx.jpg);
   background-size: cover;
   background-attachment: fixed;
   color: white;
@@ -26,7 +26,7 @@ h1 {
 
 
 .sidebar {
-  width: 250px;
+  width: 210px;
   float: left;
   text-align: center;
   margin-right: 15px;
@@ -34,7 +34,7 @@ h1 {
 }
 
 .sidebar2 {
-  width: 250px;
+  width: 210px;
   float: left;
   clear: left;
   text-align: left;
@@ -74,6 +74,10 @@ a {
 .row.display-flex > [class*="col-"] {
   display: flex;
   flex-direction: column;
+}
+
+.tBorder {
+  border: 2px dotted rgb(80, 80, 80);
 }
 
 .intro {
