@@ -1,8 +1,9 @@
 #  _Project: Week 1_
 
-#### _Website about Tyson Lackey with links to other projects from the week, 5/29/2020_
-
-#### By _**Tyson Lackey**_
+#### _Website about Tyson Lackey with links to other projects from the week,_
+##### __Created:__ 5/29/2020
+##### __Last Updated:__ 6/3/2020 
+##### By _**Tyson Lackey**_  
 
 ## Description
 
@@ -15,7 +16,24 @@ _This webpge is designed for the Week 1 project at Epicodus. It's purpose is to 
 
 ## Setup/Installation Requirements
 
-* Navigate to https://lackeyt.github.io/Project-week1/ to view
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Open by downloading:
+
+1. Download this repository onto your computer
+2. Double click index.html to open it in your web browser
+
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Open via Bash/GitBash:
+
+1. Clone this repository onto your computer:
+    "git clone https://github.com/Lackeyt/Project-week1"
+2. Navigate into the "Project-week1" directory in Visual Studio Code or preferred text editor:
+3. Open the projec
+    "code ."
+3. Open index.html in your browser:
+    "open index.html"
+
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;View Directly in your Browser:
+
+* Navigate to https://lackeyt.github.io/Project-week1/ in your web browser.
 
 ## Known Bugs
 
@@ -23,7 +41,9 @@ _This webpge is designed for the Week 1 project at Epicodus. It's purpose is to 
 
 ## Support and contact details
 
-Reach me on Discord: TysonL#4409
+* Discord: TysonL#4409
+* Email: lackeyt90@gmail.com
+
 
 ## Technologies Used
 
